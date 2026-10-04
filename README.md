@@ -119,7 +119,7 @@ Complete HTML proofs have an 8 MiB UTF-8 output limit, including HTML escaping. 
 
 Local `npm run check` passes **112 tests**. The independent Python oracle covers 9,850 model/export cases, including 8,736 exhaustive group/capacity combinations and 384 CSV inverse checks. All 12 deliberate corruptions are detected. See [verification](docs/verification.md).
 
-Seventeen sandboxed browser scenarios are authored but **have not run locally**. Pixel layouts, print PDFs, physical devices, assistive technology and native InDesign behavior remain unverified. No native integration claim is made.
+Twenty-one sandboxed browser scenarios are authored but **have not run locally**. Pixel layouts, print PDFs, physical devices, assistive technology and native InDesign behavior remain unverified. No native integration claim is made.
 
 ## 日本語
 
