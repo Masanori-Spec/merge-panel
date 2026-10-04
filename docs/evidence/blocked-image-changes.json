@@ -1,0 +1,33 @@
+{
+  "schema": "mergepanel.changes.v1",
+  "profile": "indesign",
+  "multiline": "space",
+  "mergeAllowed": false,
+  "changes": [
+    {
+      "row": 1,
+      "column": 3,
+      "fieldId": "f004",
+      "original": "Line one\r\nLine two",
+      "replacement": "Line one Line two",
+      "breaks": 1
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "fieldId": "f004",
+      "original": "One\nTwo\nThree",
+      "replacement": "One Two Three",
+      "breaks": 2
+    }
+  ],
+  "blocked": [
+    {
+      "row": 1,
+      "column": 4,
+      "fieldId": "f005",
+      "kind": "image",
+      "value": "images/part\nname.jpg"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-04",
+  "head": "722fe489b2c10c0f55a97f3f9eea6e23a4849143",
+  "run": "https://github.com/Masanori-Spec/merge-panel/actions/runs/37189619717",
+  "status": "success",
+  "model": {
+    "jobs": 4,
+    "node": [
+      22,
+      24
+    ],
+    "timezone": [
+      "UTC",
+      "Asia/Tokyo"
+    ],
+    "testsPerJob": 112,
+    "failures": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "scenarios": 21,
+    "savedDownloads": 23,
+    "chromiumSandbox": true,
+    "uncaughtErrors": []
+  },
+  "artifact": {
+    "id": 11298446817,
+    "sha256": "d5a978ed8f48c301e8d0573f2fb41e2f703b6da4aeacde3147747d99afca829e"
+  },
+  "visualReview": {
+    "desktop": [
+      "en",
+      "ja"
+    ],
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "fieldGuidePDFPages": 2,
+    "logicalProofPDFPages": 3,
+    "pdfTextIdentityChecks": true
+  },
+  "nativeInDesign": "not_verified"
+}

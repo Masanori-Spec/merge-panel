@@ -1,0 +1,4 @@
+mp_layout_record,mp_grouped,mp_group_index,mp_group_label,mp_group_chunk,mp_group_chunks,mp_slot_count,slot_1_present,slot_1_source_record,slot_1_source_id,slot_1_f003,slot_1_f004,'@slot_1_f005,slot_2_present,slot_2_source_record,slot_2_source_id,slot_2_f003,slot_2_f004,'@slot_2_f005,slot_3_present,slot_3_source_record,slot_3_source_id,slot_3_f003,slot_3_f004,'@slot_3_f005
+1,1,1,Make,1,2,3,1,1,c01,Paper circuits,Introductory session,images/paper.jpg,1,3,c03,Build a prototype,,images/prototype.jpg,1,4,c04,Test together,Pairs welcome,images/test.jpg
+2,1,1,Make,2,2,2,1,6,c06,Refine the idea,Second iteration,images/refine.jpg,1,7,c07,Keep a record,A note for next time,images/record.jpg,0,,,,,
+3,1,2,Share,1,1,2,1,2,c02,Show your work,Short presentations,images/share.jpg,1,5,c05,Peer feedback,Bring one question,images/feedback.jpg,0,,,,,

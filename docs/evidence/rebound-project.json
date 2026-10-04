@@ -1,0 +1,103 @@
+{
+  "schema": "mergepanel.project.v1",
+  "title": "Workshop card handoff",
+  "table": {
+    "columns": [
+      "Image path",
+      "Title",
+      "ID",
+      "Detail",
+      "Track"
+    ],
+    "rows": [
+      [
+        "images/paper.jpg",
+        "Paper circuits",
+        "c01",
+        "Introductory session",
+        "Make"
+      ],
+      [
+        "images/share.jpg",
+        "Show your work",
+        "c02",
+        "Short presentations",
+        "Share"
+      ],
+      [
+        "images/prototype.jpg",
+        "Build a prototype",
+        "c03",
+        "",
+        "Make"
+      ],
+      [
+        "images/test.jpg",
+        "Test together",
+        "c04",
+        "Pairs welcome",
+        "Make"
+      ],
+      [
+        "images/feedback.jpg",
+        "Peer feedback",
+        "c05",
+        "Bring one question",
+        "Share"
+      ],
+      [
+        "images/refine.jpg",
+        "Refine the idea",
+        "c06",
+        "Second iteration",
+        "Make"
+      ],
+      [
+        "images/record.jpg",
+        "Keep a record",
+        "c07",
+        "A note for next time",
+        "Make"
+      ]
+    ]
+  },
+  "settings": {
+    "capacity": 3,
+    "group": 4,
+    "id": 2,
+    "fields": [
+      {
+        "token": "f001",
+        "column": 2,
+        "kind": "text",
+        "enabled": false
+      },
+      {
+        "token": "f002",
+        "column": 4,
+        "kind": "text",
+        "enabled": false
+      },
+      {
+        "token": "f003",
+        "column": 1,
+        "kind": "text",
+        "enabled": true
+      },
+      {
+        "token": "f004",
+        "column": 3,
+        "kind": "text",
+        "enabled": true
+      },
+      {
+        "token": "f005",
+        "column": 0,
+        "kind": "image",
+        "enabled": true
+      }
+    ],
+    "profile": "generic",
+    "multiline": "preserve"
+  }
+}

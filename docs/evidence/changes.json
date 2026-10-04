@@ -1,0 +1,8 @@
+{
+  "schema": "mergepanel.changes.v1",
+  "profile": "generic",
+  "multiline": "preserve",
+  "mergeAllowed": true,
+  "changes": [],
+  "blocked": []
+}

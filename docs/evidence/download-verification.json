@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "actual eight-file sample kit independently parsed and inverted",
+    "standalone proof has all seven source rows, nine slots and two padding slots",
+    "field guide lists all nine exact text/image bindings without asset loading",
+    "maximum 2000-row placement independently reconstructed with 250 eight-slot records",
+    "oversized-proof case still delivers exact project and 2000 machine layout records",
+    "actual multiline replacement receipt independently derived from unchanged source"
+  ],
+  "sample": {
+    "sourceRecords": 7,
+    "layoutRecords": 3,
+    "occupiedSlots": 7,
+    "paddingSlots": 2,
+    "handoffFiles": 8
+  },
+  "nativeInDesign": "not_verified"
+}

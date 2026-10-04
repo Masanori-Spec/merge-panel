@@ -1,0 +1,238 @@
+{
+  "status": "passed",
+  "chromiumSandbox": true,
+  "checks": [
+    "sample has exact grouped records, padding and unique DOM identities",
+    "keyboard controls trace source values and Japanese language preserves state",
+    "capacity drafts lock every download and regenerate ceil counts",
+    "group filters and record navigation retain real-versus-padding presence",
+    "eight deterministic downloads and project reimport preserve exact recipe",
+    "machine CSV retains image markers and formulas while review CSV explicitly alters them",
+    "conservative multiline block and explicit space policy retain source and receipts",
+    "image paths and identity values block replacement instead of being rewritten",
+    "exact-header source update preserves tokens after column reorder and rejects missing bindings",
+    "rejected CSV and invalid IDs preserve applied state; language and reset keep drafts explicit",
+    "sample replacement cancellation and confirmation protect unsaved work",
+    "repeated file selection and malformed UTF-8 distinguish a real replacement character",
+    "held asynchronous read cannot overwrite a newer example",
+    "maximum input exports every source exactly once across 250 eight-slot records",
+    "wide ASCII/CJK and hostile text stay contained in desktop and mobile controls",
+    "standalone field and proof HTML contain every layout and print cleanly without assets",
+    "source update retains an unapplied recipe and invalid draft corrections remain accessible",
+    "literal marker-like data is distinct from empty, unset and padding states",
+    "failed newer read and generation attempts cancel pending file reads",
+    "oversized complete proof is refused while exact machine and project exports remain usable",
+    "application performs no external requests and has no uncaught errors"
+  ],
+  "downloads": [
+    {
+      "key": "merge",
+      "requestedName": null,
+      "startedMs": 1829,
+      "status": "saved",
+      "suggestedFilename": "merge.csv",
+      "failure": null,
+      "bytes": 845
+    },
+    {
+      "key": "review",
+      "requestedName": null,
+      "startedMs": 2029,
+      "status": "saved",
+      "suggestedFilename": "merge-spreadsheet-review.csv",
+      "failure": null,
+      "bytes": 848
+    },
+    {
+      "key": "placements",
+      "requestedName": null,
+      "startedMs": 2228,
+      "status": "saved",
+      "suggestedFilename": "placement.csv",
+      "failure": null,
+      "bytes": 320
+    },
+    {
+      "key": "placement-json",
+      "requestedName": null,
+      "startedMs": 2427,
+      "status": "saved",
+      "suggestedFilename": "placement.json",
+      "failure": null,
+      "bytes": 6681
+    },
+    {
+      "key": "changes",
+      "requestedName": null,
+      "startedMs": 2627,
+      "status": "saved",
+      "suggestedFilename": "changes.json",
+      "failure": null,
+      "bytes": 149
+    },
+    {
+      "key": "fields",
+      "requestedName": null,
+      "startedMs": 2827,
+      "status": "saved",
+      "suggestedFilename": "fields.html",
+      "failure": null,
+      "bytes": 5796
+    },
+    {
+      "key": "proof",
+      "requestedName": null,
+      "startedMs": 3027,
+      "status": "saved",
+      "suggestedFilename": "proof.html",
+      "failure": null,
+      "bytes": 7889
+    },
+    {
+      "key": "project",
+      "requestedName": null,
+      "startedMs": 3227,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 1825
+    },
+    {
+      "key": "merge",
+      "requestedName": "formula-machine.csv",
+      "startedMs": 3472,
+      "status": "saved",
+      "suggestedFilename": "merge.csv",
+      "failure": null,
+      "bytes": 842
+    },
+    {
+      "key": "review",
+      "requestedName": "formula-review.csv",
+      "startedMs": 3673,
+      "status": "saved",
+      "suggestedFilename": "merge-spreadsheet-review.csv",
+      "failure": null,
+      "bytes": 846
+    },
+    {
+      "key": "project",
+      "requestedName": "formula-project.json",
+      "startedMs": 3872,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 1820
+    },
+    {
+      "key": "changes",
+      "requestedName": "space-changes.json",
+      "startedMs": 4072,
+      "status": "saved",
+      "suggestedFilename": "changes.json",
+      "failure": null,
+      "bytes": 490
+    },
+    {
+      "key": "project",
+      "requestedName": "space-project.json",
+      "startedMs": 4272,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 1252
+    },
+    {
+      "key": "changes",
+      "requestedName": "blocked-image-changes.json",
+      "startedMs": 4470,
+      "status": "saved",
+      "suggestedFilename": "changes.json",
+      "failure": null,
+      "bytes": 628
+    },
+    {
+      "key": "project",
+      "requestedName": "rebound-project.json",
+      "startedMs": 4735,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 1825
+    },
+    {
+      "key": "placement-json",
+      "requestedName": "maximum-placement.json",
+      "startedMs": 5811,
+      "status": "saved",
+      "suggestedFilename": "placement.json",
+      "failure": null,
+      "bytes": 1767826
+    },
+    {
+      "key": "project",
+      "requestedName": "maximum-project.json",
+      "startedMs": 6011,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 404500
+    },
+    {
+      "key": "fields",
+      "requestedName": null,
+      "startedMs": 7943,
+      "status": "saved",
+      "suggestedFilename": "fields.html",
+      "failure": null,
+      "bytes": 5796
+    },
+    {
+      "key": "proof",
+      "requestedName": null,
+      "startedMs": 8186,
+      "status": "saved",
+      "suggestedFilename": "proof.html",
+      "failure": null,
+      "bytes": 7889
+    },
+    {
+      "key": "project",
+      "requestedName": "retained-draft-project.json",
+      "startedMs": 8802,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 1821
+    },
+    {
+      "key": "proof",
+      "requestedName": "marker-proof.html",
+      "startedMs": 9048,
+      "status": "saved",
+      "suggestedFilename": "proof.html",
+      "failure": null,
+      "bytes": 6729
+    },
+    {
+      "key": "project",
+      "requestedName": "large-proof-project.json",
+      "startedMs": 19012,
+      "status": "saved",
+      "suggestedFilename": "mergepanel-project.json",
+      "failure": null,
+      "bytes": 5611502
+    },
+    {
+      "key": "merge",
+      "requestedName": "large-proof-machine.csv",
+      "startedMs": 19369,
+      "status": "saved",
+      "suggestedFilename": "merge.csv",
+      "failure": null,
+      "bytes": 4603947
+    }
+  ],
+  "browserVersion": "141.0.7390.37",
+  "uncaughtErrors": []
+}

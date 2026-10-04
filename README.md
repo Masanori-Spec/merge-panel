@@ -119,7 +119,11 @@ Complete HTML proofs have an 8 MiB UTF-8 output limit, including HTML escaping. 
 
 Local `npm run check` passes **112 tests**. The independent Python oracle covers 9,850 model/export cases, including 8,736 exhaustive group/capacity combinations and 384 CSV inverse checks. All 12 deliberate corruptions are detected. See [verification](docs/verification.md).
 
-Twenty-one sandboxed browser scenarios are authored but **have not run locally**. Pixel layouts, print PDFs, physical devices, assistive technology and native InDesign behavior remain unverified. No native integration claim is made.
+[Hosted verification](https://github.com/Masanori-Spec/merge-panel/actions/runs/37189619717) passes **112 tests in each of four Node/timezone configurations and all 21 sandboxed browser scenarios**. The suite saved 23 actual downloads. Desktop English/Japanese and 320/390/768-pixel layouts, the two-page field guide and three-page logical proof were inspected. The actual eight-file sample kit and maximum fixtures also passed independent Python export checks. Physical devices, assistive technology and native InDesign behavior remain unverified. No native integration claim is made.
+
+![Verified English desktop view](docs/evidence/desktop-en.png)
+
+[Japanese mobile capture](docs/evidence/mobile-ja-390.png) · [Actual sample files](docs/evidence) · [Field guide PDF](docs/evidence/fields.pdf) · [Logical proof PDF](docs/evidence/proof.pdf)
 
 ## 日本語
 

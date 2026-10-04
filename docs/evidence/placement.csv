@@ -1,0 +1,8 @@
+source_record,source_id,id_present,layout_record,slot,group_index,group_value,grouping_enabled,group_chunk
+1,c01,true,1,1,1,Make,true,1
+3,c03,true,1,2,1,Make,true,1
+4,c04,true,1,3,1,Make,true,1
+6,c06,true,2,1,1,Make,true,2
+7,c07,true,2,2,1,Make,true,2
+2,c02,true,3,1,2,Share,true,1
+5,c05,true,3,2,2,Share,true,1

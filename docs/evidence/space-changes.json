@@ -1,0 +1,25 @@
+{
+  "schema": "mergepanel.changes.v1",
+  "profile": "indesign",
+  "multiline": "space",
+  "mergeAllowed": true,
+  "changes": [
+    {
+      "row": 1,
+      "column": 3,
+      "fieldId": "f004",
+      "original": "Line one\r\nLine two",
+      "replacement": "Line one Line two",
+      "breaks": 1
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "fieldId": "f004",
+      "original": "One\nTwo\nThree",
+      "replacement": "One Two Three",
+      "breaks": 2
+    }
+  ],
+  "blocked": []
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "mergepanel.project.v1",
+  "title": "Multiline policy example",
+  "table": {
+    "columns": [
+      "ID",
+      "Group",
+      "Heading",
+      "Notes",
+      "Image"
+    ],
+    "rows": [
+      [
+        "01",
+        "A",
+        "First",
+        "Line one\r\nLine two",
+        "images/first.jpg"
+      ],
+      [
+        "02",
+        "A",
+        "Second",
+        "",
+        "images/second.jpg"
+      ],
+      [
+        "03",
+        " B",
+        "Third",
+        "One\nTwo\nThree",
+        "images/third.jpg"
+      ]
+    ]
+  },
+  "settings": {
+    "capacity": 2,
+    "group": 1,
+    "id": 0,
+    "fields": [
+      {
+        "token": "f001",
+        "column": 0,
+        "kind": "text",
+        "enabled": false
+      },
+      {
+        "token": "f002",
+        "column": 1,
+        "kind": "text",
+        "enabled": false
+      },
+      {
+        "token": "f003",
+        "column": 2,
+        "kind": "text",
+        "enabled": true
+      },
+      {
+        "token": "f004",
+        "column": 3,
+        "kind": "text",
+        "enabled": true
+      },
+      {
+        "token": "f005",
+        "column": 4,
+        "kind": "image",
+        "enabled": true
+      }
+    ],
+    "profile": "indesign",
+    "multiline": "space"
+  }
+}

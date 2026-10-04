@@ -1,0 +1,343 @@
+{
+  "schema": "mergepanel.placement.v1",
+  "title": "Workshop card handoff",
+  "settings": {
+    "capacity": 3,
+    "group": 1,
+    "id": 0,
+    "fields": [
+      {
+        "token": "f001",
+        "column": 0,
+        "kind": "text",
+        "enabled": false
+      },
+      {
+        "token": "f002",
+        "column": 1,
+        "kind": "text",
+        "enabled": false
+      },
+      {
+        "token": "f003",
+        "column": 2,
+        "kind": "text",
+        "enabled": true
+      },
+      {
+        "token": "f004",
+        "column": 3,
+        "kind": "text",
+        "enabled": true
+      },
+      {
+        "token": "f005",
+        "column": 4,
+        "kind": "image",
+        "enabled": true
+      }
+    ],
+    "profile": "generic",
+    "multiline": "preserve"
+  },
+  "sourceColumns": [
+    "ID",
+    "Track",
+    "Title",
+    "Detail",
+    "Image path"
+  ],
+  "fieldMap": [
+    {
+      "id": "f003",
+      "column": 2,
+      "header": "Title",
+      "kind": "text"
+    },
+    {
+      "id": "f004",
+      "column": 3,
+      "header": "Detail",
+      "kind": "text"
+    },
+    {
+      "id": "f005",
+      "column": 4,
+      "header": "Image path",
+      "kind": "image"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g1",
+      "value": "Make",
+      "rows": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "g2",
+      "value": "Share",
+      "rows": [
+        2,
+        5
+      ]
+    }
+  ],
+  "regrouped": true,
+  "records": [
+    {
+      "id": "r0001",
+      "ordinal": 1,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 1,
+      "groupRecords": 2,
+      "occupied": 3,
+      "slots": [
+        {
+          "slot": 1,
+          "present": true,
+          "row": 1,
+          "itemId": "c01",
+          "values": [
+            "Paper circuits",
+            "Introductory session",
+            "images/paper.jpg"
+          ],
+          "originalValues": [
+            "Paper circuits",
+            "Introductory session",
+            "images/paper.jpg"
+          ]
+        },
+        {
+          "slot": 2,
+          "present": true,
+          "row": 3,
+          "itemId": "c03",
+          "values": [
+            "Build a prototype",
+            "",
+            "images/prototype.jpg"
+          ],
+          "originalValues": [
+            "Build a prototype",
+            "",
+            "images/prototype.jpg"
+          ]
+        },
+        {
+          "slot": 3,
+          "present": true,
+          "row": 4,
+          "itemId": "c04",
+          "values": [
+            "Test together",
+            "Pairs welcome",
+            "images/test.jpg"
+          ],
+          "originalValues": [
+            "Test together",
+            "Pairs welcome",
+            "images/test.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r0002",
+      "ordinal": 2,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 2,
+      "groupRecords": 2,
+      "occupied": 2,
+      "slots": [
+        {
+          "slot": 1,
+          "present": true,
+          "row": 6,
+          "itemId": "c06",
+          "values": [
+            "Refine the idea",
+            "Second iteration",
+            "images/refine.jpg"
+          ],
+          "originalValues": [
+            "Refine the idea",
+            "Second iteration",
+            "images/refine.jpg"
+          ]
+        },
+        {
+          "slot": 2,
+          "present": true,
+          "row": 7,
+          "itemId": "c07",
+          "values": [
+            "Keep a record",
+            "A note for next time",
+            "images/record.jpg"
+          ],
+          "originalValues": [
+            "Keep a record",
+            "A note for next time",
+            "images/record.jpg"
+          ]
+        },
+        {
+          "slot": 3,
+          "present": false,
+          "row": null,
+          "itemId": null,
+          "values": [
+            "",
+            "",
+            ""
+          ],
+          "originalValues": [
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r0003",
+      "ordinal": 3,
+      "groupId": "g2",
+      "groupValue": "Share",
+      "groupRecord": 1,
+      "groupRecords": 1,
+      "occupied": 2,
+      "slots": [
+        {
+          "slot": 1,
+          "present": true,
+          "row": 2,
+          "itemId": "c02",
+          "values": [
+            "Show your work",
+            "Short presentations",
+            "images/share.jpg"
+          ],
+          "originalValues": [
+            "Show your work",
+            "Short presentations",
+            "images/share.jpg"
+          ]
+        },
+        {
+          "slot": 2,
+          "present": true,
+          "row": 5,
+          "itemId": "c05",
+          "values": [
+            "Peer feedback",
+            "Bring one question",
+            "images/feedback.jpg"
+          ],
+          "originalValues": [
+            "Peer feedback",
+            "Bring one question",
+            "images/feedback.jpg"
+          ]
+        },
+        {
+          "slot": 3,
+          "present": false,
+          "row": null,
+          "itemId": null,
+          "values": [
+            "",
+            "",
+            ""
+          ],
+          "originalValues": [
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "row": 1,
+      "itemId": "c01",
+      "recordId": "r0001",
+      "record": 1,
+      "slot": 1,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 1
+    },
+    {
+      "row": 3,
+      "itemId": "c03",
+      "recordId": "r0001",
+      "record": 1,
+      "slot": 2,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 1
+    },
+    {
+      "row": 4,
+      "itemId": "c04",
+      "recordId": "r0001",
+      "record": 1,
+      "slot": 3,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 1
+    },
+    {
+      "row": 6,
+      "itemId": "c06",
+      "recordId": "r0002",
+      "record": 2,
+      "slot": 1,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 2
+    },
+    {
+      "row": 7,
+      "itemId": "c07",
+      "recordId": "r0002",
+      "record": 2,
+      "slot": 2,
+      "groupId": "g1",
+      "groupValue": "Make",
+      "groupRecord": 2
+    },
+    {
+      "row": 2,
+      "itemId": "c02",
+      "recordId": "r0003",
+      "record": 3,
+      "slot": 1,
+      "groupId": "g2",
+      "groupValue": "Share",
+      "groupRecord": 1
+    },
+    {
+      "row": 5,
+      "itemId": "c05",
+      "recordId": "r0003",
+      "record": 3,
+      "slot": 2,
+      "groupId": "g2",
+      "groupValue": "Share",
+      "groupRecord": 1
+    }
+  ]
+}

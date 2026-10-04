@@ -1,6 +1,6 @@
 # Verification record
 
-Local implementation stage, 2026-10-04. Executed and authored checks are distinguished below.
+Verified publication stage, 2026-10-04. Local model, hosted browser and actual downloaded artifacts are distinguished below.
 
 ## Executed locally
 
@@ -19,9 +19,9 @@ Local implementation stage, 2026-10-04. Executed and authored checks are disting
 
 The DOM double does not establish real browser behavior, pixels, accessibility-tree behavior, PDF layout or downloads.
 
-## Authored, not run locally
+## Executed on hosted CI
 
-GitHub Actions defines four model jobs (Node 22/24 × UTC/Tokyo) and an Ubuntu 22.04 Chromium job with `chromiumSandbox: true`. Twenty-one browser scenarios cover:
+GitHub Actions defines four model jobs (Node 22/24 × UTC/Tokyo) and an Ubuntu 22.04 Chromium job with `chromiumSandbox: true`. [Run 37189619717](https://github.com/Masanori-Spec/merge-panel/actions/runs/37189619717) passed all five jobs at commit `722fe489b2c10c0f55a97f3f9eea6e23a4849143`. Each model job passed 112 tests with zero failures/skips. Twenty-one passing browser scenarios cover:
 
 1. Sample counts, exact row placement and unique IDs
 2. Keyboard source tracing and Japanese language
@@ -45,10 +45,23 @@ GitHub Actions defines four model jobs (Node 22/24 × UTC/Tokyo) and an Ubuntu 2
 20. Oversized complete proof refusal with successful machine/project downloads
 21. External-request and uncaught-error checks
 
-The suite saves actual screenshots, downloaded files, PDFs and a results.json when executed. They do not exist at this stage. No local browser launch or sandbox workaround was used.
+The suite saved 23 actual downloads, desktop English/Japanese captures, responsive English/Japanese captures at 320/390/768 pixels, standalone HTML print views and five PDF pages. [Browser results](evidence/results.json) retain all scenario outcomes and download diagnostics. [CI summary](evidence/ci-summary.json) identifies the exact capture commit and artifact. No local browser launch or sandbox workaround was used.
+
+The first hosted attempt completed the eight-file sample kit, then timed out on the eleventh rapid download. Chromium source documents a ten-download burst window; the harness now spaces download requests by at least 200 ms and checks actual download completion. All 23 requested files succeeded on the rerun. Application export logic and every content assertion remained unchanged.
+
+## Actual artifact inspection
+
+- The real eight-file sample kit was independently parsed using Python CSV/JSON readers and the source-derived oracle: all seven source rows occur exactly once across three layout records, with two distinct padding slots and exact image paths. CSV inverse reconstruction recovers every selected source string.
+- The field guide contains all nine generated text/image bindings. The logical proof includes all original selected values, distinct empty badges and source identities, with no image/script embeds or external assets.
+- The 2,000-row maximum fixture has 250 eight-slot records and exactly one placement per source row. The oversized-proof fixture refuses a complete proof without creating a partial download, while its project JSON and 2,000-row machine CSV remain exact.
+- The downloaded multiline replacement receipt matches a separate Python derivation from unchanged project source. [Download verification](evidence/download-verification.json) records these checks.
+- Actual screenshots were inspected for desktop English/Japanese, long ASCII/CJK/hostile strings and responsive controls. No document-width overflow or clipped language controls was found in the tested viewports.
+- The field guide PDF has two pages; the logical proof PDF has three. All five pages were rendered and inspected. PDF text contains all seven source identities once, all seven unchanged image paths, two padding slots and all nine field bindings. These are the tested sample documents, not a promise about native document pagination.
+
+The independent review report records the earlier local review stage. Its pending-hosted note is superseded by the hosted evidence above; its native-consumer limitations still apply.
 
 ## Remaining checks and limits
 
-Hosted browser execution, screenshot/PDF inspection, actual native InDesign merge behavior and physical-device/assistive-technology tests remain pending. No native integration, rendered layout, page count, font/overset, image availability, WCAG or legal guarantee is made.
+Actual native InDesign merge behavior and physical-device/assistive-technology tests remain pending. No native integration, rendered layout, page count, font/overset, image availability, WCAG or legal guarantee is made.
 
 The first-party documentation review supports the field and policy descriptions, not consumer compatibility. Adobe's current multiline statements conflict; the conservative policy is explicitly ours. EasyCatalog and MyDataMerge already address broader grouped publishing tasks. Market demand has not been established.
